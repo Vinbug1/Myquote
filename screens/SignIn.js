@@ -81,7 +81,7 @@ const SignIn = () => {
         >
           <View style={{ flex:1, backgroundColor: "#FFFFFF", marginTop: 25 }}>
             <View style={styles.head}>
-              <Text style={{ fontSize: 20, fontWeight: "600" }}>Admin SignIn</Text>
+              <Text style={{ fontSize: 20, fontWeight: "600" }}>Admin Sign In</Text>
             </View>
             <View style={{ marginTop: 95 }}>
               <TextInput
@@ -102,12 +102,12 @@ const SignIn = () => {
               <Text style={styles.shartxt}>SignIn</Text>
             </TouchableOpacity>
             </View>
-            <View  style={{ marginTop: 12, flexDirection: 'row',justifyContent: 'center',marginHorizontal:15 }}>
+            {/* <View  style={{ marginTop: 12, flexDirection: 'row',justifyContent: 'center',marginHorizontal:15 }}>
               <Text style={styles.shartx}>Don't, have an account?</Text>
             <TouchableOpacity onPress={() => handleSignUp()}>
               <Text style={styles.shartxtt}>SignUp</Text>
             </TouchableOpacity>
-            </View>
+            </View> */}
             </View>
           </View>
         </KeyboardAvoidingView>
